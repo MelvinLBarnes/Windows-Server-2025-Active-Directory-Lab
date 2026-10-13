@@ -92,7 +92,6 @@ adlab.test
 - Used departmental groups to control access to SMB shares and NTFS-protected folders.
   
 
-  
 ## Group Policy and Security Configuration
 
 ### Group Policy Management
