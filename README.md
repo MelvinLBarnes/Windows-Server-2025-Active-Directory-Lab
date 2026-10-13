@@ -192,18 +192,8 @@ Active Directory Administration | Windows Server Administration | PowerShell Aut
 
 ## Supporting Evidence
 
-Implementation screenshots, PowerShell validation results, security testing evidence, and VirtualBox baseline snapshots will be organized into dedicated project folders. Sensitive information will be reviewed before publication.
-
-## Project Status
-
-**Baseline v1.0 completed:** Core Active Directory deployment, domain integration, departmental access controls, DNS validation, and recovery snapshots.
-
-**Future enhancements:** Additional security monitoring, event log analysis, endpoint auditing, and PowerShell administration exercises.
-
-
-## Supporting Evidence
-
-The following directories contain implementation screenshots, configuration verification, and security testing evidence:
+The following directories contain implementation screenshots,
+configuration verification, and security testing evidence:
 
 | Evidence Category | Documentation |
 |---|---|
@@ -211,5 +201,16 @@ The following directories contain implementation screenshots, configuration veri
 | Windows 11 Client | [Windows 11 Client Screenshots](screenshots/02-WIN11-CLIENT01/) |
 | Security Validation and Testing | [Validation Screenshots](screenshots/03-Validation-and-Testing/) |
 
-Screenshots document the configuration and verification activities performed in this lab. The repository remains private while evidence is reviewed for sensitive information.
-  
+## Project Status
+
+**Baseline v1.0 completed:** Core Active Directory deployment,
+domain integration, departmental access controls, DNS validation,
+and recovery snapshots.
+
+## Future Enhancements
+
+- Implement centralized security monitoring and event log analysis.
+- Configure advanced Windows auditing policies.
+- Explore endpoint detection and security event investigation.
+- Develop additional PowerShell administration scripts.
+- Expand the lab with cybersecurity incident response exercises.
