@@ -25,9 +25,13 @@ The lab simulates a small enterprise network with centralized identity managemen
 Windows Server 2025 | Windows 11 Pro | Active Directory Domain Services | DNS | Group Policy | PowerShell | SMB | NTFS | Oracle VirtualBox
 
   
+
 ## Network Architecture
 
+[View Network Architecture Diagram](network-diagrams/architecture.md)
+
 The lab uses Oracle VirtualBox to host a Windows Server 2025 domain controller and a Windows 11 Pro domain-joined workstation. Both virtual machines use two network adapters: NAT for outbound connectivity and a dedicated Host-Only network for Active Directory communication.
+
 
 ### Network Configuration
 
