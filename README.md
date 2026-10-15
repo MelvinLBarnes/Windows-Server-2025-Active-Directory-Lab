@@ -24,6 +24,14 @@ The lab simulates a small enterprise network with centralized identity managemen
 
 Windows Server 2025 | Windows 11 Pro | Active Directory Domain Services | DNS | Group Policy | PowerShell | SMB | NTFS | Oracle VirtualBox
 
+### PowerShell Automation
+
+The lab includes six documented PowerShell scripts covering Active Directory user provisioning, security group management, identity validation, NTFS permissions, SMB share security, and domain controller/DNS diagnostics.
+
+[View PowerShell Scripts and Documentation](powershell-scripts/README.md)
+
+The published scripts were reconstructed and enhanced from the original lab commands. They are provided as educational examples and have not been independently tested.
+
   
 
 ## Network Architecture
@@ -209,6 +217,26 @@ configuration verification, and security testing evidence:
 **Baseline v1.0 completed:** Core Active Directory deployment,
 domain integration, departmental access controls, DNS validation,
 and recovery snapshots.
+
+## AI-Assisted Learning, Research, and Documentation
+
+This project was developed through hands-on technical implementation, independent research, troubleshooting, and AI-assisted learning using OpenAI's ChatGPT.
+
+ChatGPT served as a technical learning assistant throughout the project, supporting:
+
+- **Technical research and understanding:** Explaining Windows Server administration, Active Directory, DNS, Group Policy, PowerShell, and security principles.
+- **Troubleshooting and problem-solving:** Helping investigate configuration issues, interpret diagnostic results, and evaluate possible solutions.
+- **PowerShell development:** Assisting with the reconstruction, documentation, and enhancement of scripts based on commands used during the lab.
+- **Technical documentation:** Helping organize implementation evidence, network architecture, GitHub repository structure, and project documentation.
+- **Skills development:** Reinforcing concepts through guided explanations and practical application.
+
+**Implementation and ownership:** I performed the hands-on configuration, administration, troubleshooting, and validation of the virtualized environment. AI-generated suggestions and reconstructed scripts were reviewed and adapted for the project, and the reconstructed scripts have not been independently tested.
+
+This project demonstrates my ability to combine technical research, AI-assisted workflows, critical thinking, and practical systems administration to develop and document an enterprise-style IT lab.
+
+**AI Tool:** OpenAI ChatGPT  
+**Project:** Windows Server 2025 Active Directory Home Lab
+
 
 ## Future Enhancements
 
