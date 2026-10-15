@@ -217,3 +217,4 @@ and recovery snapshots.
 - Explore endpoint detection and security event investigation.
 - Develop additional PowerShell administration scripts.
 - Expand the lab with cybersecurity incident response exercises.
+.gitkeep
