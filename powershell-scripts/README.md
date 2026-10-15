@@ -8,6 +8,8 @@ This directory contains PowerShell scripts used or reconstructed from the Window
 |---|---|
 | [01-Create-AD-Bulk-Users.ps1](01-Create-AD-Bulk-Users.ps1) | Reconstructed and sanitized PowerShell script for provisioning 200 Active Directory users across four departments. |
 | [02-Assign-Department-Groups.ps1](02-Assign-Department-Groups.ps1) | Assigns departmental users to the appropriate Active Directory security groups, with membership checks and preview-only safeguards. |
+| [03-Verify-AD-Users-and-Groups.ps1](03-Verify-AD-Users-and-Groups.ps1) | Read-only audit of 200 departmental users, security group memberships, and incorrect OU assignments. |
+
 
 ## Lab Environment
 
