@@ -11,6 +11,7 @@ This directory contains PowerShell scripts used or reconstructed from the Window
 | [03-Verify-AD-Users-and-Groups.ps1](03-Verify-AD-Users-and-Groups.ps1) | Read-only audit of 200 departmental users, security group memberships, and incorrect OU assignments. |
 | [04-Audit-NTFS-Permissions.ps1](04-Audit-NTFS-Permissions.ps1) | Read-only audit of departmental NTFS permissions, inheritance settings, and access control entries for IT, HR, Finance, and Sales. |
 | [05-Audit-SMB-Shares.ps1](05-Audit-SMB-Shares.ps1) | Read-only audit of departmental SMB share paths, security group permissions, Domain Admins access, and unexpected access entries. |
+| [06-Verify-DC-and-DNS-Health.ps1](06-Verify-DC-and-DNS-Health.ps1) | Read-only domain controller and DNS health diagnostics, including DCDIAG, LDAP SRV records, DNS A records, and network adapter registration settings. |
 
 
 ## Lab Environment
