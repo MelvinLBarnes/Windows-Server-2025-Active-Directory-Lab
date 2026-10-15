@@ -10,6 +10,7 @@ This directory contains PowerShell scripts used or reconstructed from the Window
 | [02-Assign-Department-Groups.ps1](02-Assign-Department-Groups.ps1) | Assigns departmental users to the appropriate Active Directory security groups, with membership checks and preview-only safeguards. |
 | [03-Verify-AD-Users-and-Groups.ps1](03-Verify-AD-Users-and-Groups.ps1) | Read-only audit of 200 departmental users, security group memberships, and incorrect OU assignments. |
 | [04-Audit-NTFS-Permissions.ps1](04-Audit-NTFS-Permissions.ps1) | Read-only audit of departmental NTFS permissions, inheritance settings, and access control entries for IT, HR, Finance, and Sales. |
+| [05-Audit-SMB-Shares.ps1](05-Audit-SMB-Shares.ps1) | Read-only audit of departmental SMB share paths, security group permissions, Domain Admins access, and unexpected access entries. |
 
 
 ## Lab Environment
@@ -22,6 +23,8 @@ This directory contains PowerShell scripts used or reconstructed from the Window
 ## Security and Usage Notes
 
 Scripts are provided for educational demonstration and technical documentation. Credentials have been removed or replaced with secure input methods.
+
+The PowerShell scripts in this repository were reconstructed and enhanced from commands used during the original Windows Server 2025 Active Directory lab. They preserve the administrative workflows while incorporating improved documentation, security practices, and validation logic. The reconstructed versions have not been independently tested.
 
 Do not execute account-provisioning scripts against an existing directory without reviewing their behavior and testing them in an isolated environment. Reconstructed scripts have not necessarily been independently tested.
 
