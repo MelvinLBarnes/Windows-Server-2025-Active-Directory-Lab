@@ -9,9 +9,17 @@
 .NOTES
     Lab domain: adlab.test
     Domain controller: DC01
-    LAB ONLY. Not idempotent: running it again creates additional users.
+    LAB ONLY. The -Apply parameter is required to create users.
+    Not idempotent: executing with -Apply can create additional accounts.
     Review the target OUs and test in a disposable lab before execution.
 #>
+
+
+[CmdletBinding()]
+param(
+    [switch]$Apply
+)
+
 
 Import-Module ActiveDirectory -ErrorAction Stop
 
@@ -41,8 +49,23 @@ function Generate-RandomName {
     return $name
 }
 
-# The original script used a shared, hardcoded lab password.
-# Prompting securely is the only behavioral security change in this version.
+
+# Safety check: preview by default.
+if (-not $Apply) {
+    Write-Host "PREVIEW MODE - No accounts will be created." -ForegroundColor Yellow
+
+    foreach ($department in $departments.Keys) {
+        Write-Host "Would attempt to create $USERS_PER_DEPARTMENT users in $department"
+    }
+
+    Write-Host "To authorize creation, run this script with -Apply." -ForegroundColor Cyan
+    return
+}
+
+
+# Credentials are entered securely instead of being hardcoded.
+# Account creation requires the explicit -Apply parameter.
+
 $password = Read-Host 'Enter a temporary password for NEW lab accounts' -AsSecureString
 
 foreach ($department in $departments.Keys) {
