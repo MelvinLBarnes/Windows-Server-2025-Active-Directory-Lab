@@ -29,10 +29,16 @@ The PowerShell scripts in this repository were reconstructed and enhanced from c
 
 Do not execute account-provisioning scripts against an existing directory without reviewing their behavior and testing them in an isolated environment. Reconstructed scripts have not necessarily been independently tested.
 
-## Planned Additions
 
-- Departmental security group assignment
-- Active Directory user and group auditing
-- NTFS permission verification
+## Completed Automation Collection
+
+The Baseline v1.0 PowerShell collection includes six documented scripts covering:
+
+- Bulk Active Directory user provisioning
+- Departmental security group assignments
+- Active Directory user and group verification
+- NTFS permission auditing
 - SMB share security auditing
-- Domain controller and DNS health verification
+- Domain controller and DNS health diagnostics
+
+These scripts were reconstructed and enhanced from the original lab administration workflows. The reconstructed versions have not been independently tested.
