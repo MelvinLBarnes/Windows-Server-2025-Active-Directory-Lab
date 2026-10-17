@@ -245,3 +245,10 @@ This project demonstrates my ability to combine technical research, AI-assisted 
 - Explore endpoint detection and security event investigation.
 - Develop additional PowerShell administration scripts.
 - Expand the lab with cybersecurity incident response exercises.
+
+
+## Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/melvin-barnes)
+- [GitHub Profile](https://github.com/MelvinLBarnes)
+
